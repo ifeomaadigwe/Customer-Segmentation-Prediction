@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/IfeomaAugustaAdigwe/Desktop/Customer_Segmentation/src/mlruns/858829443419452173/models/m-1df735155fa041f98cfe30f69a63dc5b/artifacts
+creation_timestamp: 1750615080921
+experiment_id: '858829443419452173'
+last_updated_timestamp: 1750615084739
+model_id: m-1df735155fa041f98cfe30f69a63dc5b
+model_type: null
+name: preprocessor
+source_run_id: 6d13031cd044417fadcc60df7179c052
+status: 2
+status_message: null

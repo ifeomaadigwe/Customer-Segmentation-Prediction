@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/IfeomaAugustaAdigwe/Desktop/Customer_Segmentation/src/mlruns/858829443419452173/6d13031cd044417fadcc60df7179c052/artifacts
+end_time: 1750615085097
+entry_point_name: ''
+experiment_id: '858829443419452173'
+lifecycle_stage: active
+run_id: 6d13031cd044417fadcc60df7179c052
+run_name: likeable-gnu-742
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750615073479
+status: 3
+tags: []
+user_id: IfeomaAugustaAdigwe

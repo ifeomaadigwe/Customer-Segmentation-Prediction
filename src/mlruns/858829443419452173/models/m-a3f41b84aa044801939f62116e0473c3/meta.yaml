@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/IfeomaAugustaAdigwe/Desktop/Customer_Segmentation/src/mlruns/858829443419452173/models/m-a3f41b84aa044801939f62116e0473c3/artifacts
+creation_timestamp: 1750615255114
+experiment_id: '858829443419452173'
+last_updated_timestamp: 1750615260420
+model_id: m-a3f41b84aa044801939f62116e0473c3
+model_type: null
+name: kmeans_model
+source_run_id: 2bf31014bc8747219687d475863b81cd
+status: 2
+status_message: null

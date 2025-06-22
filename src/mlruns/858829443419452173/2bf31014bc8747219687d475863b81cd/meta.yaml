@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/IfeomaAugustaAdigwe/Desktop/Customer_Segmentation/src/mlruns/858829443419452173/2bf31014bc8747219687d475863b81cd/artifacts
+end_time: 1750615264722
+entry_point_name: ''
+experiment_id: '858829443419452173'
+lifecycle_stage: active
+run_id: 2bf31014bc8747219687d475863b81cd
+run_name: useful-stoat-932
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750615253443
+status: 3
+tags: []
+user_id: IfeomaAugustaAdigwe

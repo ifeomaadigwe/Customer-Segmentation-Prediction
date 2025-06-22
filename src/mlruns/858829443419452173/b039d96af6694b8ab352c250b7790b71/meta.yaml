@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/IfeomaAugustaAdigwe/Desktop/Customer_Segmentation/src/mlruns/858829443419452173/b039d96af6694b8ab352c250b7790b71/artifacts
+end_time: 1750615205547
+entry_point_name: ''
+experiment_id: '858829443419452173'
+lifecycle_stage: active
+run_id: b039d96af6694b8ab352c250b7790b71
+run_name: rogue-slug-901
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750615193816
+status: 3
+tags: []
+user_id: IfeomaAugustaAdigwe

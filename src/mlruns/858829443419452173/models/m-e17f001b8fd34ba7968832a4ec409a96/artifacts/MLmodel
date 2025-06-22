@@ -1,0 +1,14 @@
+artifact_path: file:///C:/Users/IfeomaAugustaAdigwe/Desktop/Customer_Segmentation/src/mlruns/858829443419452173/models/m-e17f001b8fd34ba7968832a4ec409a96/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.0
+model_id: m-e17f001b8fd34ba7968832a4ec409a96
+model_size_bytes: 682
+model_uuid: m-e17f001b8fd34ba7968832a4ec409a96
+prompts: null
+run_id: 6dcc1963be994f4ca2e3cbf77bcab0c4
+utc_time_created: '2025-06-22 18:05:49.467725'
