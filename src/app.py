@@ -5,8 +5,8 @@ import plotly.express as px
 
 @st.cache_resource
 def load_model_and_preprocessor():
-    preprocessor = joblib.load('src/artifacts/preprocessor.pkl')
-    model = joblib.load('src/artifacts/kmeans_model.pkl')
+    preprocessor = joblib.load('artifacts/preprocessor.pkl')
+    model = joblib.load('artifacts/kmeans_model.pkl')
     return preprocessor, model
 
 preprocessor, model = load_model_and_preprocessor()
@@ -40,6 +40,7 @@ if uploaded_file is not None:
             st.dataframe(cluster_stats)
 
             # Visualization
+            df_proc['cluster'] = df_proc['cluster'].astype(str)  # Ensure clusters are categorical for color mapping
             fig = px.scatter(
                 df_proc,
                 x='annual_income',
@@ -47,7 +48,7 @@ if uploaded_file is not None:
                 color='cluster',
                 title='Customer Segmentation Clusters',
                 labels={'annual_income': 'Annual Income', 'spending_score': 'Spending Score'},
-                color_discrete_sequence=['red', 'blue', 'green', 'yellow']
+                color_discrete_sequence=px.colors.qualitative.Set1  # Use a vibrant, distinct palette
             )
             st.plotly_chart(fig)
 else:
