@@ -1,13 +1,28 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import os
 import plotly.express as px
+import os
 
 @st.cache_resource
 def load_model_and_preprocessor():
-    preprocessor = joblib.load('preprocessor.pkl')
-    model = joblib.load('kmeans_model.pkl')
+    # Get the directory where this script is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Build paths to the artifacts
+    preprocessor_path = os.path.join(current_dir, 'artifacts', 'preprocessor.pkl')
+    model_path = os.path.join(current_dir, 'artifacts', 'kmeans_model.pkl')
+    
+    # Check if files exist and provide helpful error messages
+    if not os.path.exists(preprocessor_path):
+        st.error(f"Preprocessor file not found at: {preprocessor_path}")
+        st.stop()
+    if not os.path.exists(model_path):
+        st.error(f"Model file not found at: {model_path}")
+        st.stop()
+    
+    preprocessor = joblib.load(preprocessor_path)
+    model = joblib.load(model_path)
     return preprocessor, model
 
 preprocessor, model = load_model_and_preprocessor()
